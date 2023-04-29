@@ -1,0 +1,87 @@
+:root {
+	/* Change these variables to change the theme of the website. */
+	--background: #e9bc51;
+	--background-secondary: #9d6029;
+	--main: #532200;
+
+	--font-main: didot, serif;
+}
+
+body {
+	
+  height: 100%;
+  width: 100%;
+
+	padding: 0px;
+	margin: 0px;
+
+	font-family: var(--font-main);
+	font-size: 1em;
+	
+	color: var(--main);
+	background: var(--background-secondary);
+	
+}
+
+main {
+	padding: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bigonly {
+	display: block;
+}
+
+.smallonly {
+	display: none;
+}
+
+img {
+	width: 100%;
+}
+
+/* Section */
+
+section {
+	background: var(--background);
+	padding: 20px;
+}
+
+section:first-child {
+
+	margin-top: 60px;
+	
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	
+}
+
+section:first-child #introimage {
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+	width: 30vw;
+	height: 30vw;
+
+	border-radius: 10px;
+	border: 1px solid var(--main);
+
+	transform: translateY(-10vh);
+	
+}
+
+section:last-child {
+
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
